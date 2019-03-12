@@ -1,0 +1,14 @@
+
+server:
+  port: 8080
+#mysql
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/ease-run?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+#mybatis-plus
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+
